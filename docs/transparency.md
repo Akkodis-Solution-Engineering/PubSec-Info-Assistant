@@ -345,12 +345,12 @@ This system makes no claim for precision or accuracy. The behavior and performan
 # Learn more about the IA copilot template
 
 
-[Information Assistant copilot template](https://github.com/microsoft/PubSec-Info-Assistant)
+[Information Assistant copilot template](https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant)
 
 
 # Contact us
 
-Give us feedback on this document in our [Q&A Discussions](https://github.com/microsoft/PubSec-Info-Assistant/discussions/categories/q-a) on GitHub.
+Give us feedback on this document in our [Q&A Discussions](https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant/discussions/categories/q-a) on GitHub.
 
 ## About this document
 

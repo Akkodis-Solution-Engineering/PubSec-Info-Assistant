@@ -27,7 +27,7 @@ To set up an Azure DevOps pipeline for deploying code from a GitHub repository, 
 
    1. Select **GitHub** as the source repository.
 
-   2. **Select your repository:** Choose the GitHub repository where you have forked the [PubSec-Info-Assistant](https://github.com/microsoft/PubSec-Info-Assistant) repo to.
+   2. **Select your repository:** Choose the GitHub repository where you have forked the [PubSec-Info-Assistant](https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant) repo to.
 
    3. Under **Configure your pipeline:** select **Existing Azure Pipelines YAML file**
 
@@ -64,7 +64,7 @@ To set up an Azure DevOps pipeline for deploying code from a GitHub repository, 
 
 ## Configuring Azure Entra Objects
 
-The Azure DevOps pipelines run under a "Service Connection" that leverages an Azure Entra Service Principal (the CLIENT_ID and SERVICE_PRINCIPAL_ID parameters above). This Service Principal will not have rights to create additional Azure Entra objects, so an Administrative user needs to manually create the Azure Entra objects required for the Information Assistant environment before running the pipeline. Information on the Azure Entra objects required can be found in our [Manual App Registration Creation Guide](docs/deployment/manual_app_registration.md) and [GitHub Discussion #457](https://github.com/microsoft/PubSec-Info-Assistant/discussions/457)
+The Azure DevOps pipelines run under a "Service Connection" that leverages an Azure Entra Service Principal (the CLIENT_ID and SERVICE_PRINCIPAL_ID parameters above). This Service Principal will not have rights to create additional Azure Entra objects, so an Administrative user needs to manually create the Azure Entra objects required for the Information Assistant environment before running the pipeline. Information on the Azure Entra objects required can be found in our [Manual App Registration Creation Guide](docs/deployment/manual_app_registration.md) and [GitHub Discussion #457](https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant/discussions/457)
 
 :warning: The provided example Azure DevOps pipeline currently does NOT configure the accelerator to use the custom Azure Entra objects on when deploying an environment as they are not required for running the functional tests. The example pipelines will need to be extended to apply the custom Azure Entra objects to deploy a fully functioning Information Assistant environment.
 

@@ -10,15 +10,15 @@ When you use the "Chat" capabilities, the system maintains a history for your co
 
 > ![Chat Link](/docs/images/info-assist-chat-ui.png)
 
-There are new modes that extend the Information Assistant user experience. Similar to COPILOT, Information Assistant has a Work and a Web Mode called Work Only and Work + Web respectfully. There is also a Generative mode enabling user interaction with the LLM without grounding the response in their data.
+There are new modes that extend the Information Assistant user experience. Similar to COPILOT, Information Assistant has a Work and a Web Mode called School Only and School + Web respectfully. There is also a Generative mode enabling user interaction with the LLM without grounding the response in their data.
 
-## Work Only
+## School Only
 
-Work Only mode provides the natural language conversation with your data that you are familiar with from previous versions of Information Assistant. In this mode, the user is limited to interacting with their private data they upload into the Information Assistant. The color scheme for Work Only mode is intentionally the same as M365 Copilot.
+School Only mode provides the natural language conversation with your data that you are familiar with from previous versions of Information Assistant. In this mode, the user is limited to interacting with their private data they upload into the Information Assistant. The color scheme for School Only mode is intentionally the same as M365 Copilot.
 
-## Work + Web
+## School + Web
 
-The Work + Web mode experience starts similar to Work Only mode. It provides new options in the response enabling the user to __Searh Web__ to see if there is newer information available or __Compare with Web__ to compare the response from their data with information available on the web. In this mode the user can choose to ask questions and have the grounding data be either sourced from private data they upload or web search results from the Bing Search service. The default grounding mode can be changed in the Adjust settings located on the top right just below the Assistants preview links.
+The School + Web mode experience starts similar to School Only mode. It provides new options in the response enabling the user to __Searh Web__ to see if there is newer information available or __Compare with Web__ to compare the response from their data with information available on the web. In this mode the user can choose to ask questions and have the grounding data be either sourced from private data they upload or web search results from the Bing Search service. The default grounding mode can be changed in the Adjust settings located on the top right just below the Assistants preview links.
 
 ![Chat Link](/docs/images/work-plus-web-ui.png)
 
@@ -26,13 +26,13 @@ Selecting the __Search Web__ or __Compare with Web__ options changes the user ex
 
 ### Search Web
 
-Selecting __Search Web__ from a Work Only response asks the same question on the web. The UI color scheme changes to reflect the user is searching a different source.
+Selecting __Search Web__ from a School Only response asks the same question on the web. The UI color scheme changes to reflect the user is searching a different source.
 
 ![Chat Link](/docs/images/work-plus-web-search-web.png)
 
 Options in the __Search Web__ response include __Search Work__ and __Compare with Work__.
 
-The __Search Work__ option in the Web response works similar to the __Search Web__ option found in the Work Only response. When using the __Work + Web__ mode users can choose to ground in either Work or the Web by default. Default grounding can be changed in the Adjust settings located on the top right just below the Assistants preview links.
+The __Search Work__ option in the Web response works similar to the __Search Web__ option found in the School Only response. When using the __School + Web__ mode users can choose to ground in either Work or the Web by default. Default grounding can be changed in the Adjust settings located on the top right just below the Assistants preview links.
 
 ![Chat Link](/docs/images/adjust-settings-ui.png)
 ![Chat Link](/docs/images/configure-answer-generation.png)
@@ -41,12 +41,12 @@ The __Search Work__ option in the Web response works similar to the __Search Web
 
 ### Compare with Web
 
-Selecting __Compare with Web__ from a Work Only response asks the same question on the web then compares your data response with the response from the web. The UI color scheme changes to reflect the user is comparing Work with Web
+Selecting __Compare with Web__ from a School Only response asks the same question on the web then compares your data response with the response from the web. The UI color scheme changes to reflect the user is comparing Work with Web
 
 ![Chat Link](/docs/images/work-plus-web-compare-with-web.png)
 
 
-With different grounding settings in the __Work + Web__ mode, the compare option can be Work compared to Web or Web compared to Work.
+With different grounding settings in the __School + Web__ mode, the compare option can be Work compared to Web or Web compared to Work.
 
 ![Chat Link](/docs/images/work-plus-web-compare-with-work.png)
 

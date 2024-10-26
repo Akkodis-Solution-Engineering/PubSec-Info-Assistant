@@ -11,9 +11,9 @@ export type ExampleModel = {
 };
 
 const EXAMPLES: ExampleModel[] = [
-    { text: "Are there any radio telescopes in Australia?", value: "Are there any radio telescopes in Australia?" },
-    { text: "What are Microsoft's primary sources of revenue?", value: "What are Microsoft's primary sources of revenue?" },
-    { text: "What are some flavors of Breyers?", value: "What are some flavors of Breyers?" }
+    { text: "Summarise the Year 7 English Teaching & Learning Outline", value: "Summarise the Year 7 English Teaching & Learning Outline" },
+    { text: "What are the policy standards for curriculum planning?", value: "What are the policy standards for curriculum planning?" },
+    { text: "What is the notional teaching time to be spent on each learning area?", value: "What is the notional teaching time to be spent on each learning area?" }
 ];
 
 interface Props {

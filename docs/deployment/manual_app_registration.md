@@ -1,6 +1,6 @@
 # App Registration Creation Guide
 
-If you are unable to obtain the permission at the tenant level described in [Azure account requirements](https://github.com/microsoft/PubSec-Info-Assistant/tree/v1.0?tab=readme-ov-file#azure-account-requirements), you can follow the guidance below to create a manual app registration.
+If you are unable to obtain the permission at the tenant level described in [Azure account requirements](https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant/tree/v1.0?tab=readme-ov-file#azure-account-requirements), you can follow the guidance below to create a manual app registration.
 
 ## Tenant Administrator: Manual steps to create app registrations
 

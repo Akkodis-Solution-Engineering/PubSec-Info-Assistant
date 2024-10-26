@@ -309,7 +309,7 @@ const handleCloseEvent = () => {
       Tabular Data Assistant
     </h1>
     <span className={styles.chatEmptyObjectives}>
-      <i className={cstyle.centertext}>Information Assistant uses AI. Check for mistakes.</i> <a href="https://github.com/microsoft/PubSec-Info-Assistant/blob/main/docs/transparency.md" target="_blank" rel="noopener noreferrer"> Transparency Note</a>
+      <i className={cstyle.centertext}>Information Assistant uses AI. Check for mistakes.</i> <a href="https://github.com/Akkodis-Solution-Engineering/PubSec-Info-Assistant/blob/main/docs/transparency.md" target="_blank" rel="noopener noreferrer"> Transparency Note</a>
     </span>
     
     

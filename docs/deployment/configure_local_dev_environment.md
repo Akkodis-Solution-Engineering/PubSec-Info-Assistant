@@ -67,7 +67,7 @@ Set Git User Name and Email
     git config --global user.email "youremail@yourdomain.com"
 ```
 
-Set Git [UseHttps](https://github.com/microsoft/Git-Credential-Manager-Core/blob/main/docs/configuration.md#credentialusehttppath)
+Set Git [UseHttps](https://github.com/Akkodis-Solution-Engineering/Git-Credential-Manager-Core/blob/main/docs/configuration.md#credentialusehttppath)
 
 ``` bash
     git config --global credential.useHttpPath true
