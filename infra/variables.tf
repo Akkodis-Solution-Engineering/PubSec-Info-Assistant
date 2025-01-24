@@ -466,7 +466,7 @@ variable "searchServicesName" {
 
 variable "searchServicesSkuName" {
   type    = string
-  default = "standard"
+  default = "basic"
 }
 
 variable "storageAccountName" {
